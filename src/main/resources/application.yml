@@ -17,20 +17,4 @@ spring:
       on-profile: dev
   jmx:
     enabled: false
-  datasource:
-    dataSourceClassName: org.postgresql.ds.PGSimpleDataSource
-    driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://185.185.126.15:5432/merchant_hub
-    connectionTimeout: 10000
-    maxLifetime: 18000000
-    maximumPoolSize: 10
-    username: test
-    password: test
-  jpa:
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-    database: postgresql
-  sql:
-    init:
-      platform: org.hibernate.dialect.PostgreSQL95Dialect
+

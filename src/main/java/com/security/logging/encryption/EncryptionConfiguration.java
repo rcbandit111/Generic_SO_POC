@@ -9,7 +9,7 @@ import java.util.List;
 public class EncryptionConfiguration {
 
   @Bean
-  HeaderEncryption auditingHeaderMasker(EncryptionProperties encryptionProperties) {
+  HeaderEncryption headerEncryption(EncryptionProperties encryptionProperties) {
     return new HeaderEncryption(encryptionProperties);
   }
 

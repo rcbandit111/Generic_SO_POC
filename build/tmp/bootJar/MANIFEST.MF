@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Main-Class: org.springframework.boot.loader.JarLauncher
-Start-Class: org.MerchantApplication
-Spring-Boot-Version: 2.6.6
+Start-Class: com.TestApplication
+Spring-Boot-Version: 2.6.7
 Spring-Boot-Classes: BOOT-INF/classes/
 Spring-Boot-Lib: BOOT-INF/lib/
 Spring-Boot-Classpath-Index: BOOT-INF/classpath.idx
